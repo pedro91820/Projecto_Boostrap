@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Acordeon</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container">
+		<br>
+		<a href="#seccion" class="btn btn-primary" data-toggle="collapse">Mostrar / Ocultar</a>
+		<div class="collapse" id="seccion">
+		<br>
+			<div class="well">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				</p>
+			</div>
+		</div>
+		<br><br>
+		
+	<div class="panel-group" id="accordion" role="tablist">
+		<div class="panel panel-default">
+			<div class="panel-heading" role="tab" id="heading1">
+				<h4 class="panel-title">
+					<a href="#collapse1" data-toggle="collapse" data-parent="#accordion">Encabezado#1</a>
+				</h4>
+			</div>
+			<div id="collapse1" class="panel-collapse collapse in">
+				<div class="panel-body">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.	
+				</div>
+			</div>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading" role="tab" id="heading2">
+				<h4 class="panel-title">
+				<a href="#collapse2" data-toggle="collapse" data-parent="#accordion">Encabezado#2</a>
+				</h4>
+			</div>
+			<div id="collapse2" class="panel-collapse collapse" >
+				<div class="panel-body">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.	
+				</div>
+			</div>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading" role="tab" id="heading3">
+				<h4 class="panel-title">
+				<a href="#collapse3" data-toggle="collapse" data-parent="#accordion">Encabezado#3</a>
+				</h4>
+			</div>
+			<div id="collapse3" class="panel-collapse collapse" >
+				<div class="panel-body">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.	
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	<script src="../js/jquery.min.js"></script>
+	<script src="../bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

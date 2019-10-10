@@ -1,0 +1,35 @@
+header {
+	background:#2c3e50;
+	color:#fff;
+}
+
+.main{
+     background:#f2f2f2;
+}
+	
+.color1{
+	background:#24495e;
+	color:#fff;
+}
+.color2{
+	background:#358f64;
+	color:#fff;
+}
+.color3{
+	background:#1fd736;
+	color:#fff;
+}
+.color4{
+	background:#3978af;
+	color:#fff;
+}
+
+aside{
+    background:#c0392b;
+	color:#fff;
+}
+
+footer{
+	background:#16a085;
+	color:#fff;
+}
